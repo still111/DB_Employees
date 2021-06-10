@@ -56,12 +56,15 @@
       <artifactId>spring-orm</artifactId>
       <version>5.2.15.RELEASE</version>
     </dependency>
-
-
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.6</version>
+    </dependency>
   </dependencies>
 
   <build>
-    <finalName>spring_course_mvc_hibernate_aop</finalName>
+    <finalName>spring_mvc_hibernate_aop</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
